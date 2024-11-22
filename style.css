@@ -131,7 +131,7 @@ h1 img {
 /* Police pour Killa Cam */
 @font-face {
     font-family: 'BloodyFrozen'; 
-    src: url("C:/Users/live1/Documents/Codage/Fonts/Bloody Frozen.otf") format('opentype');
+    src: url("Fonts/Bloody Frozen.otf") format('opentype');
 }
 
 .card .intro h2 {
@@ -145,7 +145,7 @@ h1 img {
 /* Police pour Juelz Santana */
 @font-face {
     font-family: 'UrbanJungle'; 
-    src: url('C:/Users/live1/Documents/Codage/Fonts/UrbanJungleDEMO.otf') format('opentype');
+    src: url('Fonts/UrbanJungleDEMO.otf') format('opentype');
 }
 
 .card .intro h3 {
@@ -159,7 +159,7 @@ h1 img {
 /* Police pour Jim Jones */
 @font-face {
     font-family: 'Docallisme'; 
-    src: url('C:/Users/live1/Documents/Codage/Fonts/DOCALLISME ON STREET.ttf') format('truetype');
+    src: url('Fonts/DOCALLISME ON STREET.ttf') format('truetype');
 }
 
 .card .intro h4 {
@@ -174,7 +174,7 @@ h1 img {
 /* Police pour le titre "The Diplomats..." */
 @font-face {
     font-family: 'AmericanKestrel';
-    src: url("C:/Users/live1/Documents/Codage/Fonts/americankestrel3d.otf") format('opentype');
+    src: url("Fonts/americankestrel3d.otf") format('opentype');
 }
 
 h1 {
