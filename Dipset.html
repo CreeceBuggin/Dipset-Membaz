@@ -10,6 +10,13 @@
     <!-- Titre sans bannière -->
     <h1>The Diplomats Aka Dipset <img src="images\tha logo.png" width="100" alt="Dipset Logo"></h1>
 
+    <!-- Audio Player -->
+    <audio id="audioPlayer" loop>
+        <source src="audio/dipset-anthem-dirtyexplicit-official-music-video-remastered-1080p-hd.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+    <button onclick="toggleAudio()">🎵 Play/Pause</button>
+
     <!-- Section contenant les cartes -->
     <div class="container">
         <!-- Card 1: Cam'ron -->
@@ -49,8 +56,21 @@
             </div>
         </div>
     </div>
+
+    <!-- Script pour contrôler l'audio -->
+    <script>
+        function toggleAudio() {
+            const audio = document.getElementById("audioPlayer");
+            if (audio.paused) {
+                audio.play();
+            } else {
+                audio.pause();
+            }
+        }
+    </script>
 </body>
 </html>
+
 
 
 
